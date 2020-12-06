@@ -23,6 +23,7 @@ class ReusableRxTableViewController<ItemViewModel: BaseViewModel<Model>, Model: 
     private func configureTableView() {
         tableView.dataSource = nil
         tableView.delegate = nil
+        tableView.tableFooterView = UIView()
         tableView.refreshControl = UIRefreshControl()
         tableView.estimatedRowHeight = 64
         tableView.rowHeight = UITableView.automaticDimension

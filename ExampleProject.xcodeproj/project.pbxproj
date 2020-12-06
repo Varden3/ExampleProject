@@ -20,7 +20,6 @@
 		B0104CA4257AB6C10039E6B1 /* BasePaginationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0104CA3257AB6C10039E6B1 /* BasePaginationPresenter.swift */; };
 		B0104CA9257AB7090039E6B1 /* BasePaginationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0104CA8257AB7090039E6B1 /* BasePaginationTableViewCell.swift */; };
 		B0104CB7257AB80F0039E6B1 /* DnDClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0104CB6257AB80F0039E6B1 /* DnDClassesViewController.swift */; };
-		B0104CBC257AB81E0039E6B1 /* DnDClassesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0104CBB257AB81E0039E6B1 /* DnDClassesPresenter.swift */; };
 		B0104CC1257AB8360039E6B1 /* DnDClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0104CC0257AB8360039E6B1 /* DnDClassViewModel.swift */; };
 		B0104CC6257AB8440039E6B1 /* DnDClassesNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0104CC5257AB8440039E6B1 /* DnDClassesNavigator.swift */; };
 		B0104CD0257ABA560039E6B1 /* DnDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0104CCF257ABA560039E6B1 /* DnDClass.swift */; };
@@ -99,7 +98,6 @@
 		B0104CA3257AB6C10039E6B1 /* BasePaginationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePaginationPresenter.swift; sourceTree = "<group>"; };
 		B0104CA8257AB7090039E6B1 /* BasePaginationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePaginationTableViewCell.swift; sourceTree = "<group>"; };
 		B0104CB6257AB80F0039E6B1 /* DnDClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnDClassesViewController.swift; sourceTree = "<group>"; };
-		B0104CBB257AB81E0039E6B1 /* DnDClassesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnDClassesPresenter.swift; sourceTree = "<group>"; };
 		B0104CC0257AB8360039E6B1 /* DnDClassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnDClassViewModel.swift; sourceTree = "<group>"; };
 		B0104CC5257AB8440039E6B1 /* DnDClassesNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnDClassesNavigator.swift; sourceTree = "<group>"; };
 		B0104CCF257ABA560039E6B1 /* DnDClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnDClass.swift; sourceTree = "<group>"; };
@@ -367,7 +365,6 @@
 			isa = PBXGroup;
 			children = (
 				B0104CB6257AB80F0039E6B1 /* DnDClassesViewController.swift */,
-				B0104CBB257AB81E0039E6B1 /* DnDClassesPresenter.swift */,
 				B0104CC0257AB8360039E6B1 /* DnDClassViewModel.swift */,
 				B0104CC5257AB8440039E6B1 /* DnDClassesNavigator.swift */,
 				B0104CF6257ABFC20039E6B1 /* DnDClassTableViewCell.swift */,
@@ -694,7 +691,6 @@
 				B0104D20257AC7A80039E6B1 /* UseCaseImp.swift in Sources */,
 				B0104D25257AC9DA0039E6B1 /* UseCaseType.swift in Sources */,
 				B0104C9F257AB6A80039E6B1 /* BaseViewModel.swift in Sources */,
-				B0104CBC257AB81E0039E6B1 /* DnDClassesPresenter.swift in Sources */,
 				B046F93F257BD7F700E4C454 /* ReusableRxTableViewController.swift in Sources */,
 				B0104CA4257AB6C10039E6B1 /* BasePaginationPresenter.swift in Sources */,
 				B0104D0E257AC2BC0039E6B1 /* DnDError.swift in Sources */,
