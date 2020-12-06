@@ -40,12 +40,11 @@ class ReusableRxTableViewController<ItemViewModel: BaseViewModel<Model>, Model: 
         
         let input = ReusableRxViewModel<Model, Navigator, BaseViewModel<Model>>.Input(trigger: Driver.merge(viewWillAppear, pull), selection: tableView.rx.itemSelected.asDriver())
         let output = viewModel.transform(input: input)
-        //Bind Posts to UITableView
+
         output.items.drive(tableView.rx.items(cellIdentifier: BasicTableViewCell.reuseID, cellType: BasicTableViewCell.self)) { tv, viewModel, cell in
             let tableCell = cell as BasicTableViewCell
             tableCell.bind(ItemViewModel(with: viewModel.element))
         }.disposed(by: disposeBag)
-        //Connect Create Post to UI
         
         output.fetching
             .drive(tableView.refreshControl!.rx.isRefreshing)
